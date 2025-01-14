@@ -9,5 +9,6 @@ body {
 	min-height: 100dvh;
 	width: 100dvw;
 	overflow-x: clip;
-	background-color: #202020;
+	color: #fff;
+	background-color: #101010;
 }
