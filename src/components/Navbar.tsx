@@ -1,12 +1,8 @@
-import { FaUser } from "react-icons/fa6";
-import Soash from "../assets/images/soash.png";
-import "../assets/styles/Nav.css";
+import "../assets/styles/Navbar.css";
 
 const Navbar = () => {
 	return (
 		<nav>
-			<img src={Soash} alt="the word Soash" />
-			<FaUser />
 			<ul>
 				<li>forums</li>
 				<li>bits</li>

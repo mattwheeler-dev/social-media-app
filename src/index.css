@@ -1,3 +1,12 @@
+/* Variables */
+:root {
+	--primary: #06fffb;
+	--secondary: #9502f0;
+	--border: 2px solid var(--primary);
+	--radius: 0.25rem;
+	--shadow: 0 0 0.5rem #000;
+}
+
 /* Global Defaults */
 * {
 	margin: 0;
@@ -8,7 +17,12 @@
 body {
 	min-height: 100dvh;
 	width: 100dvw;
-	overflow-x: clip;
+	overflow: clip;
 	color: #fff;
 	background-color: #101010;
+}
+
+main {
+	height: 100%;
+	width: 100%;
 }

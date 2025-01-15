@@ -1,0 +1,26 @@
+.cta-block {
+	width: 90%;
+	margin: 3rem auto;
+	padding: 5rem 1rem;
+	text-align: center;
+	background-color: #000;
+	border: var(--border);
+	border-radius: var(--radius);
+}
+
+.tagline span {
+	color: var(--primary);
+}
+
+.cta-block button {
+	margin: 2rem 0;
+	padding: 0.25rem 0.5rem;
+	background-color: var(--primary);
+	border: 2px solid var(--secondary);
+	border-radius: var(--radius);
+}
+
+.cta-block a {
+	text-decoration: none;
+	color: var(--primary);
+}
