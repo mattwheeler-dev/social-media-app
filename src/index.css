@@ -31,6 +31,17 @@ main {
 	width: 100%;
 }
 
+header {
+	height: 3rem;
+	text-align: center;
+	background-color: #000;
+	border-bottom: var(--border);
+}
+
+header img {
+	height: 100%;
+}
+
 section {
 	max-width: 1000px;
 }

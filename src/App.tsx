@@ -1,9 +1,11 @@
-import Welcome from "./pages/Welcome";
+// import Welcome from "./pages/Welcome";
+import Home from "./pages/Home";
 
 const App = () => {
 	return (
 		<main>
-			<Welcome />
+			{/* <Welcome /> */}
+			<Home />
 		</main>
 	);
 };

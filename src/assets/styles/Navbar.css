@@ -1,21 +1,15 @@
 nav {
 	height: 2rem;
-	background-color: #000;
+	font-size: 0.8rem;
+	background-color: var(--secondary);
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
 }
 
-nav img {
-	height: 100%;
-}
-
-nav ul {
-	list-style-type: none;
-	width: 100%;
-	padding: 0.2rem 0;
-	background-color: #045e8fbe;
-	display: flex;
-	justify-content: space-around;
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
 }
