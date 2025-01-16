@@ -1,7 +1,10 @@
 nav {
 	height: 2rem;
+	width: 100%;
 	font-size: 0.8rem;
 	background-color: var(--secondary);
+	position: fixed;
+	top: 3rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;

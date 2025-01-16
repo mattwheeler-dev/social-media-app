@@ -1,0 +1,27 @@
+footer {
+	height: 4rem;
+	width: 100%;
+	text-align: center;
+	border-top: var(--border);
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+footer div.active {
+	color: var(--primary);
+}
+
+footer div:nth-of-type(3) svg {
+	scale: 2;
+}
+
+footer svg {
+	scale: 1.25;
+}
+
+footer p {
+	font-size: 0.7rem;
+}
